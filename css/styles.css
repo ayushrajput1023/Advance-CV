@@ -1,0 +1,52 @@
+             /******************** TAG SELECTORS *****************/
+body {
+  background-color: #f2c0ff; }  /*here,style attribute is a CSS code which changes the background color of the web page.For diffrent color visit colorhunt.co and in this line the hexadecimal number represents the color and it is compulsory to put # before the number.Read more from MDN */
+hr {
+  background-color: yellow;
+  border-style: none;
+  border top style:dashed;  /*it will give a dotted line*/
+  height: 4px;
+  width: 50px;
+  }  /*it changes the background-color of horizontal line.There are many default css code so to check "browser default css" google it and also visit "devdocs.io" to change the height of the line.*/
+h1,h3{color:grey;}
+/*selector{property:value;}*/
+/* To see the css syntax or the css property then visit to MDN web Docs*/
+/*img{
+  border-radius:100%;
+}*/
+  img:hover{
+  background-color: red;
+}    /* hover is a pseudo class as it contain : to read more about pseudo class search "css refrence MDN" then goto "keyword index".Here,hover class works as when we mouse over on the image than the background color changes to red.*/
+
+
+        /************************ CLASS SELECTOR ********************************/
+ /* To style a class we write a dot and then the name of the class */
+ .broccoli{
+   background-color: yellow;
+ }
+
+ .mango{
+   background-color: orange;
+ }
+
+ .circular{
+   border-radius: 100%;
+ }
+
+ .coding{
+   font-style: oblique;
+ }
+
+ .batminton{
+   font-size:30px;
+   color: red;
+ }
+
+           /*********************** ID SELECTOR ************************************/
+/* To style a ID we write # and then the name of the ID */
+#heading{
+  font-size: 40px;
+  color: blue;
+}    /* Here,Id and class selector will override the tag selector if we edit the same tag by both tag and id selector as shown.*/
+/* ID name must be unique all the times that is all id name will be diffrent inside a single page.We use id to identify the elements.*/
+/* class can be same for two or more elements.We use classes when we want to style a group of items or elements.*/
